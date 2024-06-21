@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home | My Portfolio</title>
+  <link rel="stylesheet" href="/styles.css">
+  <style>
+    /* ヘッダーのスタイル */
+    header {
+      background-color: rgba(51, 51, 51, 0.8); /* 背景色を半透明に設定 */
+      color: #fff;
+      padding: 10px 0;
+      position: fixed; /* ヘッダーを固定 */
+      top: 0;
+      width: 100%;
+      z-index: 1000; /* ヘッダーが他の要素の上に表示されるようにする */
+    }
+    header h1 {
+      text-align: center;
+      margin-left: 0px; /* ヘッダータイトルを左寄せ */
+    }
+    nav ul {
+      list-style-type: none; /* リストのマーカーを非表示 */
+      padding: 0;
+      display: flex; /* ナビゲーション項目を横並びに */
+    }
+    nav li {
+      margin-right: 50px; /* ナビゲーション項目の間隔 */
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      transition: color 0.3s ease; /* リンクの色を変化させるトランジション */
+    }
+    nav a:hover {
+      color: #f0f0f0; /* ホバー時のリンクの色 */
+    }
+
+    /* セクションのスタイル */
+    section {
+      padding: 20px;
+      margin: 20px 0;
+      border-top: 1px solid #ccc; /* セクション間にボーダーライン */
+    }
+    section h2 {
+      text-align: center; /* セクションタイトルを中央寄せ */
+    }
+    ul {
+      list-style: none; /* リストのデフォルトのマーカーを非表示にする */
+      padding: 0; /* リストの内側の余白をリセット */
+      text-align: center; /* リストアイテムのテキストを中央に寄せる */
+    }
+    ul li {
+      margin-bottom: 10px; /* リストアイテムごとの下部マージンを設定 */
+    }
+
+    /* フッターのスタイル */
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      position: fixed; /* ページの下部に固定 */
+      bottom: 0;
+      width: 100%;
+    }
+
+    /* メインコンテンツのスタイル */
+    main {
+      margin-top: 150px; /* ヘッダーの高さに応じた上部マージンを追加 */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#profile">プロフィール</a></li>
+        <li><a href="#PR">自己PR</a></li>
+        <li><a href="#学ちか">学生の時に力を入れたこと</a></li>
+        <li><a href="#syourai">将来の自分像</a></li>
+        <li><a href="#introduction">趣味・特技</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="profile">
+      <h2>プロフィール</h2>
+      <ul>
+        <li>名前：三谷　竜弘</li>
+        <li>所属：鳥取大学工学部電気情報系学科</li>
+        <li>誕生日：2004/03/16</li>
+        <li>趣味：読書、ゲーム、音楽を聴く</li>
+      </ul>
+    </section>
+    <section id="PR">
+      <h2>自己PR</h2>
+      <p>
+        &emsp;私はグループでの活動を積極的に行うタイプではありません。ですがグループで話し合いをすることは可能です。そこで問題解決に向けて意見を出し合うこともできます。
+        リーダーシップのある人のように進行役をするタイプではありません。しかし高い傾聴力をもって人の話を聞いて意見の食い違いや、話題の流れを察知して、重要なこと話題の中心にするのが得意です。
+      </p>
+      <p>
+        &emsp;大学でのディスカッション形式の話し合いでは、皆の注目をあつめ取り仕切る役を積極的にとることは少ないです。
+        しかし、そこで出た意見について深く掘り下げるように発言したり、もしも話が詰まった時にはこれまでの意見を別の切り口からみるような、違う視点をもって問題解決に臨むことができます。これが私の自己PRです。
+      </p>
+      </section>
+      <section id="学ちか">
+      <h2>学生の時に力をいれたこと</h2>
+      <p>
+        &emsp;私は、現在塾で講師をしています。初めての私の生徒は、あまり成績が良くない子でした。さらに、講義のときあまり質問されることがなく、困っている状態でした。
+        その時、私はその子と仲良くなるように世間話をし、さらにできるだけその子が私と話がしやすいように会話を持っていくようにするようにしました。
+        そうすると、その子はよく話してくれるようになり、わからないところをどうわからないのかを伝えようとしてくれるようになりました。また私も、どの段階でどうわからないのかを考え、
+        的確に問題への考え方から答えまでたどり着けるように教えられるようになりました。
+      </p>
+      <p>
+        &emsp;これは私の強みである傾聴力が高いことがその子のわからないことを理解できるよう話から察して、さらに良いアドバイスを送ることにつながったと考えています。
+        これがやりがいとなって今でも続けている塾では、リーダー講師として働かせていただけるようになり、新しく講師として入ってきた人に指導法を教える立場になることができました。
+        </p>
+    </section>
+     <section id="syourai">
+      <h2>将来なりたい自分像</h2>
+      <p> 
+        &emsp;私が将来やりたいことはプログラミングをして、自分が新しく社会に役立つようなサービスを世に提供していくことです。
+        自分の手で新しく開発することも、既存のものをより良いものにしていくこともどちらも職として世の中に提供することが理想であると考えています。
+        またそこで得た技術をもっと様々な分野にも広げていけることがベストであると考えています。特に私の好きな分野である、音楽の分野で自分が携わるサービス広げていくのが夢です。
+      </p>
+      <p>  
+        &emsp;私は過去に住職として働きながら、音楽関係にも携わっている人と知り合いになったことがあり、その人はその分野で一番ともいえるほどの腕をもっていました。
+        それでいて地元の活性化にも目を向けている人で、その人のようになれたらと憧れを抱きました。この思いを持った時、自分のやりたいことは素直にそのままやればよいと考えが生まれました。
+        プログラミングをすることで世の役に立つことと、自分の好きな音楽分野でも活躍できる、ということが今の自分の人生のゴールのように思っています。
+      </p>
+      <p>  
+        &emsp;もちろんそのためにできること、今であればプログラミング言語を習得することや、大学でできるような経験を積むことは精一杯頑張っていきたいと考えており、
+        最終的にこの目的を果たせるような自身の能力を生涯を通じて身に着けていきたいです。
+      </p>
+    </section>
+     <section id="introduction">
+      <h2>趣味・特技</h2>
+      <h3>＜趣味＞</h3>
+      <p> &emsp;私の趣味はゲームをすることです。小さいころからRPGをよく遊んでおり、
+        その影響もあり現在ＩＴエンジニアを目指いしている。
+      </p>
+      <li><a href="/introduction">Introduction</a></li>
+      <h3>＜特技＞</h3>
+      <p>私の特技は、将棋です。小学生のころ父の影響で初めて以来、今日まで続けています。
+        中学生から高校生のころには地方の大会に出ていろんな年齢の人と将棋をしていました。
+        そこで実力をつけて、下位のクラスでしたが初めて優勝した時は、とても喜んだのを覚えています。
+        </p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 三谷竜弘</p>
+  </footer>
+
+  <script>
+    // ページ内リンクのスムーズスクロール
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+
+        const sectionId = this.getAttribute('href').substring(1);
+        const section = document.getElementById(sectionId);
+
+        window.scrollTo({
+          top: section.offsetTop - document.querySelector('header').offsetHeight + 1,
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</body>
+</html>
